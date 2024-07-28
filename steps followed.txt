@@ -1,0 +1,27 @@
+freddy@DESKTOP-OLD6CVM MINGW64 ~/Desktop/PLPBasicGitAssignment (master)
+$ git add .
+
+freddy@DESKTOP-OLD6CVM MINGW64 ~/Desktop/PLPBasicGitAssignment (master)
+$ git commit "Add hello.txt with a greeting"
+error: pathspec 'Add hello.txt with a greeting' did not match any file(s) known to git
+
+freddy@DESKTOP-OLD6CVM MINGW64 ~/Desktop/PLPBasicGitAssignment (master)
+$ git commmit -m "Add hello.txt with a greeting"
+git: 'commmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+freddy@DESKTOP-OLD6CVM MINGW64 ~/Desktop/PLPBasicGitAssignment (master)
+$ git commit -m "Add hello.txt with a greeting"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+freddy@DESKTOP-OLD6CVM MINGW64 ~/Desktop/PLPBasicGitAssignment (master)
+$ git push
+Everything up-to-date
+
+freddy@DESKTOP-OLD6CVM MINGW64 ~/Desktop/PLPBasicGitAssignment (master)
+$
